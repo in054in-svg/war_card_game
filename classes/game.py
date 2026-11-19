@@ -56,6 +56,8 @@ Player cards: {len(player.cards)} | Computer cards: {len(computer.cards)}
            return 'Player won the round!'
 
         else:
+            computer.cards.append(computer.cards.pop(0))
+            player.cards.append(player.cards.pop(0))
             return "It's a draw!"
         
     
