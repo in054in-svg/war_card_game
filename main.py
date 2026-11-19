@@ -1,29 +1,5 @@
 import time
 from classes.game import Game, Player
-
-# # יצירת חפיסה
-# game = Game()
-# deck = game.make_deck()
-# # for d in deck:
-# #     print(d)
-    
-# # ערבוב
-# game.Shuffling_a_deck(deck)
-# # for d in deck:
-# #     print(d)
-
-# computer = Player('computer')
-# player = Player('player')
-
-# game.dealing_a_deck(deck, computer, player)
-
-# # for card in computer.cards:
-# #     print(card)
-# # for card in player.cards:
-# #     print(card)
-
-# print(game.make_turn(computer, player))
-
 def main():
     game = Game()
     while True:
